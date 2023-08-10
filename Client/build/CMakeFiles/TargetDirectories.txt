@@ -1,0 +1,3 @@
+/home/aniki/CLionProjects/Client/build/CMakeFiles/Client.dir
+/home/aniki/CLionProjects/Client/build/CMakeFiles/edit_cache.dir
+/home/aniki/CLionProjects/Client/build/CMakeFiles/rebuild_cache.dir
