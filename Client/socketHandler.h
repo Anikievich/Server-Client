@@ -16,6 +16,7 @@
 #include <sys/time.h>
 #include <iostream>
 #include <cstring>
+#include <sys/select.h>
 
 class socketHandler {
 public:

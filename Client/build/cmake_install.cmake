@@ -1,4 +1,4 @@
-# Install script for directory: /home/aniki/CLionProjects/Client
+# Install script for directory: /home/aniki/CLionProjects/Server-Client/Client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aniki/CLionProjects/Client/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aniki/CLionProjects/Server-Client/Client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

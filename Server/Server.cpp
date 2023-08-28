@@ -14,16 +14,11 @@ Server::Server(short port): socket_( PF_INET, SOCK_STREAM, 0) {
         perror("Server: cannot connect socket");
         exit(EXIT_FAILURE);
     }
-    listen(socket_.getSock(),1);
+    listen(socket_.getSock(),3);
     size =sizeof(addr_from);
     std::cout<<size<<std::endl;
     std::cout<<socket_.getSock()<<std::endl;
-    newsock = accept(socket_.getSock(), (struct sockaddr*)&addr_from,  &size);
-    std::cout<<newsock<<std::endl;
-    if(newsock<0){
-        perror("Server: cannot connect newsocket");
-        exit(EXIT_FAILURE);
-    }
+
 }
 
 void Server::closeScock() {

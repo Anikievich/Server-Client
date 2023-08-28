@@ -1,7 +1,7 @@
 CMakeFiles/Server.dir/socketHandler.cpp.o: \
- /home/aniki/CLionProjects/Server/socketHandler.cpp \
+ /home/aniki/CLionProjects/Server-Client/Server/socketHandler.cpp \
  /usr/include/stdc-predef.h \
- /home/aniki/CLionProjects/Server/socketHandler.h \
+ /home/aniki/CLionProjects/Server-Client/Server/socketHandler.h \
  /usr/include/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

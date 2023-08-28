@@ -14,6 +14,7 @@ Handler::Handler(short &host_port, short &this_port, const std::string& IP):
 }
 void Handler::run() {
 
+
     std::getline(std::cin, msg);
     int msg_size = msg.size();
 
@@ -66,5 +67,5 @@ void Handler::run() {
     }
     std::cout<<buf1<<std::endl;
     delete[] buf1;
-    closeScock();
+   // closeScock();
 }

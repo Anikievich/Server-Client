@@ -13,6 +13,9 @@ public:
     explicit Handler(short &host_port, short &this_port, const std::string& IP);
     void run();
 private:
+
+    fd_set active_set;
+
     int nbytes;
     int msg_size, size;
     char const work[11] = {"  running"};

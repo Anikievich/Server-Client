@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aniki/CLionProjects/Client/Client.cpp" "CMakeFiles/Client.dir/Client.cpp.o" "gcc" "CMakeFiles/Client.dir/Client.cpp.o.d"
-  "/home/aniki/CLionProjects/Client/Handler.cpp" "CMakeFiles/Client.dir/Handler.cpp.o" "gcc" "CMakeFiles/Client.dir/Handler.cpp.o.d"
-  "/home/aniki/CLionProjects/Client/main.cpp" "CMakeFiles/Client.dir/main.cpp.o" "gcc" "CMakeFiles/Client.dir/main.cpp.o.d"
-  "/home/aniki/CLionProjects/Client/socketHandler.cpp" "CMakeFiles/Client.dir/socketHandler.cpp.o" "gcc" "CMakeFiles/Client.dir/socketHandler.cpp.o.d"
+  "/home/aniki/CLionProjects/Server-Client/Client/Client.cpp" "CMakeFiles/Client.dir/Client.cpp.o" "gcc" "CMakeFiles/Client.dir/Client.cpp.o.d"
+  "/home/aniki/CLionProjects/Server-Client/Client/Handler.cpp" "CMakeFiles/Client.dir/Handler.cpp.o" "gcc" "CMakeFiles/Client.dir/Handler.cpp.o.d"
+  "/home/aniki/CLionProjects/Server-Client/Client/main.cpp" "CMakeFiles/Client.dir/main.cpp.o" "gcc" "CMakeFiles/Client.dir/main.cpp.o.d"
+  "/home/aniki/CLionProjects/Server-Client/Client/socketHandler.cpp" "CMakeFiles/Client.dir/socketHandler.cpp.o" "gcc" "CMakeFiles/Client.dir/socketHandler.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

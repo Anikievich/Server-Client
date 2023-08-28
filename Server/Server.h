@@ -29,8 +29,6 @@ private:
     struct sockaddr_in addr_from;
     struct sockaddr_in addr_this;
     socketHandler socket_;
-protected:
-    int newsock;
 };
 
 

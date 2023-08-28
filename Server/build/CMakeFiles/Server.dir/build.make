@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aniki/CLionProjects/Server
+CMAKE_SOURCE_DIR = /home/aniki/CLionProjects/Server-Client/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aniki/CLionProjects/Server/build
+CMAKE_BINARY_DIR = /home/aniki/CLionProjects/Server-Client/Server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/Server.dir/progress.make
 include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/main.cpp.o: CMakeFiles/Server.dir/flags.make
-CMakeFiles/Server.dir/main.cpp.o: /home/aniki/CLionProjects/Server/main.cpp
+CMakeFiles/Server.dir/main.cpp.o: /home/aniki/CLionProjects/Server-Client/Server/main.cpp
 CMakeFiles/Server.dir/main.cpp.o: CMakeFiles/Server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/main.cpp.o -MF CMakeFiles/Server.dir/main.cpp.o.d -o CMakeFiles/Server.dir/main.cpp.o -c /home/aniki/CLionProjects/Server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/main.cpp.o -MF CMakeFiles/Server.dir/main.cpp.o.d -o CMakeFiles/Server.dir/main.cpp.o -c /home/aniki/CLionProjects/Server-Client/Server/main.cpp
 
 CMakeFiles/Server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server-Client/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
 
 CMakeFiles/Server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server-Client/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
 
 CMakeFiles/Server.dir/Server.cpp.o: CMakeFiles/Server.dir/flags.make
-CMakeFiles/Server.dir/Server.cpp.o: /home/aniki/CLionProjects/Server/Server.cpp
+CMakeFiles/Server.dir/Server.cpp.o: /home/aniki/CLionProjects/Server-Client/Server/Server.cpp
 CMakeFiles/Server.dir/Server.cpp.o: CMakeFiles/Server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/Server.cpp.o -MF CMakeFiles/Server.dir/Server.cpp.o.d -o CMakeFiles/Server.dir/Server.cpp.o -c /home/aniki/CLionProjects/Server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/Server.cpp.o -MF CMakeFiles/Server.dir/Server.cpp.o.d -o CMakeFiles/Server.dir/Server.cpp.o -c /home/aniki/CLionProjects/Server-Client/Server/Server.cpp
 
 CMakeFiles/Server.dir/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server/Server.cpp > CMakeFiles/Server.dir/Server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server-Client/Server/Server.cpp > CMakeFiles/Server.dir/Server.cpp.i
 
 CMakeFiles/Server.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server/Server.cpp -o CMakeFiles/Server.dir/Server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server-Client/Server/Server.cpp -o CMakeFiles/Server.dir/Server.cpp.s
 
 CMakeFiles/Server.dir/socketHandler.cpp.o: CMakeFiles/Server.dir/flags.make
-CMakeFiles/Server.dir/socketHandler.cpp.o: /home/aniki/CLionProjects/Server/socketHandler.cpp
+CMakeFiles/Server.dir/socketHandler.cpp.o: /home/aniki/CLionProjects/Server-Client/Server/socketHandler.cpp
 CMakeFiles/Server.dir/socketHandler.cpp.o: CMakeFiles/Server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/socketHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/socketHandler.cpp.o -MF CMakeFiles/Server.dir/socketHandler.cpp.o.d -o CMakeFiles/Server.dir/socketHandler.cpp.o -c /home/aniki/CLionProjects/Server/socketHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/socketHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/socketHandler.cpp.o -MF CMakeFiles/Server.dir/socketHandler.cpp.o.d -o CMakeFiles/Server.dir/socketHandler.cpp.o -c /home/aniki/CLionProjects/Server-Client/Server/socketHandler.cpp
 
 CMakeFiles/Server.dir/socketHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server.dir/socketHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server/socketHandler.cpp > CMakeFiles/Server.dir/socketHandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server-Client/Server/socketHandler.cpp > CMakeFiles/Server.dir/socketHandler.cpp.i
 
 CMakeFiles/Server.dir/socketHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server.dir/socketHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server/socketHandler.cpp -o CMakeFiles/Server.dir/socketHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server-Client/Server/socketHandler.cpp -o CMakeFiles/Server.dir/socketHandler.cpp.s
 
 CMakeFiles/Server.dir/Handler.cpp.o: CMakeFiles/Server.dir/flags.make
-CMakeFiles/Server.dir/Handler.cpp.o: /home/aniki/CLionProjects/Server/Handler.cpp
+CMakeFiles/Server.dir/Handler.cpp.o: /home/aniki/CLionProjects/Server-Client/Server/Handler.cpp
 CMakeFiles/Server.dir/Handler.cpp.o: CMakeFiles/Server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/Handler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/Handler.cpp.o -MF CMakeFiles/Server.dir/Handler.cpp.o.d -o CMakeFiles/Server.dir/Handler.cpp.o -c /home/aniki/CLionProjects/Server/Handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/Handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server.dir/Handler.cpp.o -MF CMakeFiles/Server.dir/Handler.cpp.o.d -o CMakeFiles/Server.dir/Handler.cpp.o -c /home/aniki/CLionProjects/Server-Client/Server/Handler.cpp
 
 CMakeFiles/Server.dir/Handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server.dir/Handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server/Handler.cpp > CMakeFiles/Server.dir/Handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aniki/CLionProjects/Server-Client/Server/Handler.cpp > CMakeFiles/Server.dir/Handler.cpp.i
 
 CMakeFiles/Server.dir/Handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server/Handler.cpp -o CMakeFiles/Server.dir/Handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aniki/CLionProjects/Server-Client/Server/Handler.cpp -o CMakeFiles/Server.dir/Handler.cpp.s
 
 # Object files for target Server
 Server_OBJECTS = \
@@ -141,7 +141,7 @@ Server: CMakeFiles/Server.dir/socketHandler.cpp.o
 Server: CMakeFiles/Server.dir/Handler.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aniki/CLionProjects/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd /home/aniki/CLionProjects/Server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aniki/CLionProjects/Server /home/aniki/CLionProjects/Server /home/aniki/CLionProjects/Server/build /home/aniki/CLionProjects/Server/build /home/aniki/CLionProjects/Server/build/CMakeFiles/Server.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/aniki/CLionProjects/Server-Client/Server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aniki/CLionProjects/Server-Client/Server /home/aniki/CLionProjects/Server-Client/Server /home/aniki/CLionProjects/Server-Client/Server/build /home/aniki/CLionProjects/Server-Client/Server/build /home/aniki/CLionProjects/Server-Client/Server/build/CMakeFiles/Server.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Server.dir/depend
 

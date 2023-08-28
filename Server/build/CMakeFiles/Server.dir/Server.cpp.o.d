@@ -1,14 +1,15 @@
 CMakeFiles/Server.dir/Server.cpp.o: \
- /home/aniki/CLionProjects/Server/Server.cpp /usr/include/stdc-predef.h \
- /home/aniki/CLionProjects/Server/Server.h /usr/include/sys/types.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
- /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h \
+ /home/aniki/CLionProjects/Server-Client/Server/Server.cpp \
+ /usr/include/stdc-predef.h \
+ /home/aniki/CLionProjects/Server-Client/Server/Server.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/features-time64.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h \
  /usr/include/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/endianness.h \
@@ -159,4 +160,4 @@ CMakeFiles/Server.dir/Server.cpp.o: \
  /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
  /usr/include/c++/13.1.1/bits/istream.tcc /usr/include/c++/13.1.1/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/aniki/CLionProjects/Server/socketHandler.h
+ /home/aniki/CLionProjects/Server-Client/Server/socketHandler.h

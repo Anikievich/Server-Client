@@ -10,6 +10,12 @@ Handler::Handler(short port) : Server(port) {
 
 void Handler::run() {
 
+    int newsock = accept(socket_.getSock(), (struct sockaddr*)&addr_from,  &size);
+    std::cout<<newsock<<std::endl;
+    if(newsock<0){
+        perror("Server: cannot connect newsocket");
+        exit(EXIT_FAILURE);
+    }
     nbytes = recv(newsock, (char*)&msg_size, sizeof(int), 0);
     if (nbytes < 0) {
         fprintf(stderr, "cannot send data");
@@ -71,6 +77,6 @@ void Handler::run() {
     };
     std::cout<<"Sending response..."<<std::endl;
     delete[]msg;
-    close(newsock);
-    closeScock();
+    //close(newsock);
+    //closeScock();
 }
